@@ -1,0 +1,5 @@
+<?php
+require_once 'app/controllers/HomeController.php';
+
+$homeController = new HomeController();
+$homeController->showIndex();
